@@ -7,6 +7,6 @@ NLP algorithms and projects from Jurafsky and Martin textbook
 - **Minimum Edit Distance**- Wagner and Fischer (1974)
 
 #### Chapter 4
-- **Naive Bayes Algorithn**- used logarithmic scale and add-one smoothing
+- **Multinomial Naive Bayes Algorithm**- using logarithmic scale and add-one smoothing
 
 ![Naive Bayes Result](naive_bayes/res.png)

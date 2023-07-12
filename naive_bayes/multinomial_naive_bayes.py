@@ -10,10 +10,10 @@ def train_naive_bayes(docs, classes):
     vocab = set()
     big_doc = defaultdict(list)  # class: list of all words associated with class (contains duplicates)
     for doc in docs:
-        print(doc)
         classes_count[doc[0]] += 1
         vocab.update(doc)
         big_doc[doc[0]] += (doc[1:])
+        print(doc)
     vocab -= set(classes)   # Remove class names from vocab
 
     # Calculate prior: P(c) for each class
